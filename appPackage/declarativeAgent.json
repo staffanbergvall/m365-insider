@@ -1,0 +1,7 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.5/schema.json",
+    "version": "v1.5",
+    "name": "M365 Insider${{APP_NAME_SUFFIX}}",
+    "description": "En declarative agent för M365 Insider skapad med Microsoft 365 Agents Toolkit",
+    "instructions": "$[file('instruction.txt')]"
+}
